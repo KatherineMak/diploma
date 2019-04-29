@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
-    <a class="navbar-brand" href="#">Kate's blog</a>
+    <a class="navbar-brand" href="#">Art cafe's blog</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -17,7 +17,7 @@
                     @else
                         <a href="{{ route('logout') }}"
                            onclick="event.preventDefault();
-                                                    document.getElementById('logout-form').submit();">
+                           document.getElementById('logout-form').submit();">
                             Logout
                         </a>
 
