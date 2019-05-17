@@ -58,6 +58,7 @@ class HomeController extends Controller
         $post = Post::find($id);
         $post->title = $request->title;
         $post->description = $request->description;
+        $post->image = $request->image;
         $post->save();
         return redirect()->route('home')->with('success', 'Post has been updated successfully!');
     }

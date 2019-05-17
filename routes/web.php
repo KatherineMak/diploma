@@ -11,7 +11,16 @@
 |
 */
 
-Route::get('/', 'PostController@getIndex')->name('index');
+//Route::get('/', 'PostController@getIndex')->name('index');
+Route::get('/', function () {
+    return view('index');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/blog', 'PostController@getIndex')->name('blog');
 
 Auth::routes();
 

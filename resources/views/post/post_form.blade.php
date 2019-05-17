@@ -30,6 +30,11 @@
                             <label for="description">Description</label>
                             <textarea class="form-control" id="id_description" rows="3" name="description" placeholder="Description"></textarea>
                         </div>
+                        <div class="form-group">
+                            <label for="image">Image</label>
+                            <input type="text" class="form-control" id="id_image" name="image"
+                                   aria-describedby="image" placeholder="Enter image">
+                        </div>
                         <button type="submit" class="btn btn-primary">Create post</button>
                     </form>
                 </div>

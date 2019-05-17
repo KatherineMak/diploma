@@ -14,7 +14,7 @@
                     <h2 class="blog-post-title">{{ $post->title }}</h2>
                     <p class="blog-post-meta"><small><i>{{ Carbon\Carbon::parse($post->created_at)->format('d-m-Y')  }} by <a href="#">{{ $post->name }}</a></i></small></p>
 
-                    <p>{{ $post->description }}</p>
+                    {!! $post->description !!}
                 </div><!-- /.blog-post -->
             </div><!-- /.blog-main -->
 

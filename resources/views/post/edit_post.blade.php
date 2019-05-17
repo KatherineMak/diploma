@@ -30,6 +30,11 @@
                             <label for="description">Description</label>
                             <textarea class="form-control" id="id_description" rows="5" name="description">{{ $post->description }}</textarea>
                         </div>
+                        <div class="form-group">
+                            <label for="image">Image</label>
+                            <input type="text" class="form-control" id="id_image" name="image"
+                                   aria-describedby="image" placeholder="Enter image" value="{{ $post->image }}">
+                        </div>
                         <button type="submit" class="btn btn-primary">Update post</button>
                     </form>
                 </div>
